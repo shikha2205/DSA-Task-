@@ -1,3 +1,4 @@
+package dsatask2;
 public class MedianOfArray {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] mergedArray = mergeSortedArrays(nums1, nums2, 0, 0, 0, new int[nums1.length + nums2.length]);

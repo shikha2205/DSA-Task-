@@ -1,3 +1,4 @@
+package dsatask2;
 public class search_matrix {
     public static  boolean searchMatrix(int[][] matrix, int target) {
         boolean b = false;

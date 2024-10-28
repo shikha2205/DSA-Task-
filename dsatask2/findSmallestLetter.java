@@ -1,3 +1,4 @@
+package dsatask2;
 public class findSmallestLetter {
     public static char nextGreatestLetter(char[] letters, char target) {
         int start = 0;

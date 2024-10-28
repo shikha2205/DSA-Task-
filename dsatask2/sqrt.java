@@ -1,3 +1,4 @@
+package dsatask2;
 public class sqrt {
     public static int mySqrt(int x) {
         if (x < 2) {

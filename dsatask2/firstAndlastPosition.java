@@ -1,3 +1,4 @@
+package dsatask2;
 public class firstAndlastPosition {
     public static int[] searchRange(int[] nums, int target) {
         if (nums.length == 0) {

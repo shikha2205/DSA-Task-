@@ -1,3 +1,4 @@
+package dsatask2;
 public class first_bad_version {
     class versioncontrol{
     static boolean isBadVersion(int version) {
