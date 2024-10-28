@@ -13,17 +13,17 @@ public class findSmallestLetter {
         return letters[start % letters.length];
     }
 
-    public static void main(String[] args) {
-        char[] letters = {'c', 'f', 'j'};
-        char target = 'a';
+    // public static void main(String[] args) {
+    //     char[] letters = {'c', 'f', 'j'};
+    //     char target = 'a';
         
-        char result = nextGreatestLetter(letters, target);
-        System.out.println("The next greatest letter after '" + target + "' is: " + result);
+    //     char result = nextGreatestLetter(letters, target);
+    //     System.out.println("The next greatest letter after '" + target + "' is: " + result);
         
-        // You can add more test cases
-        target = 'c';
-        result = nextGreatestLetter(letters, target);
-        System.out.println("The next greatest letter after '" + target + "' is: " + result);
-    }
+    //     // You can add more test cases
+    //     target = 'c';
+    //     result = nextGreatestLetter(letters, target);
+    //     System.out.println("The next greatest letter after '" + target + "' is: " + result);
+    // }
     
 }
